@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/detailAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Nama Aplikasi"
+        android:background="?attr/colorPrimary"
+        android:textColor="?attr/colorOnPrimary"/>
+
+    <TextView
+        android:id="@+id/noPermissionsText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Aplikasi ini tidak meminta izin apapun."
+        android:gravity="center"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPermission"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:listitem="@layout/item_permission"/>
+
+</LinearLayout>

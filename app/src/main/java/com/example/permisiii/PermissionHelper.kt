@@ -20,7 +20,16 @@ object PermissionHelper {
         "android.permission.RECEIVE_SMS" to "Mengizinkan aplikasi menerima dan memproses SMS.",
         "android.permission.READ_SMS" to "Mengizinkan aplikasi membaca semua SMS Anda.",
         "android.permission.READ_EXTERNAL_STORAGE" to "Mengizinkan aplikasi membaca file di penyimpanan Anda.",
-        "android.permission.WRITE_EXTERNAL_STORAGE" to "Mengizinkan aplikasi menulis file ke penyimpanan Anda."
+        "android.permission.WRITE_EXTERNAL_STORAGE" to "Mengizinkan aplikasi menulis file ke penyimpanan Anda.",
+        "android.permission.BLUETOOTH_SCAN" to "Mengizinkan aplikasi memindai jaringan Bluetooth di sekitar Anda",
+        "android.permission.BLUETOOTH_CONNECT" to "Mengizinkan aplikasi terhubung dengan perangkat yang sudah disambungkan sebelumnya",
+        "android.permission.BLUETOOTH_ADVERTISE" to "Mengizinkan aplikasi terhubung dengan perangkat Bluetooth lainnya",
+        "android.permission.READ_MEDIA_AUDIO" to "Mengizinkan aplikasi untuk membaca file audio yang disimpan di perangkat Anda",
+        "android.permission.READ_MEDIA_IMAGES" to "Mengizinkan aplikasi untuk membaca file gambar yang disimpan di perangkat Anda",
+        "android.permission.READ_MEDIA_VIDEOS" to "Mengizinkan aplikasi untuk membaca file video yang disimpan di perangkat Anda",
+        "android.permission.ACCESS_MEDIA_LOCATION" to "Mengizinkan aplikasi untuk mengakses metadata EXIF (Exchangable Image File Format) yang tidak disunting dari foto Anda",
+        "android.permission.GET_ACCOUNTS" to "Mengizinkan aplikasi untuk mengakses daftar akun yang terdaftar di perangkat Anda",
+        "android.permission.NEARBY_WIFI_DEVICES" to "Mengizinkan aplikasi untuk mengakses dan berinteraksi dengan perangkat WI-FI di sekitar Anda"
     )
 
     fun getPermissionDescription(permission: String): String {

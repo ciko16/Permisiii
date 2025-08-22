@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "491803545906",
+    "project_id": "permisiii",
+    "storage_bucket": "permisiii.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491803545906:android:fa050b6c9e680952c4472b",
+        "android_client_info": {
+          "package_name": "com.example.permisiii"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbVbNRPmwm_YaObDaZ7PnkPXTuBFMilMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
